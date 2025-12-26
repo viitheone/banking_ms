@@ -35,38 +35,46 @@ This project was created as a CBSE Class 12 Computer Science Practical Project (
 ---
 
 ## Project Structure
+```
 ProjektX/
 ├── bnkdb_main.py # Main application - Banking System CLI
 └── dbcreate.py # Creates DB, BANK table & sample data
-
+```
 
 ---
 
-## ⚙️ Installation & Setup
+## Installation & Setup
 
 ### 1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/your-username/ProjektX.git
 cd ProjektX
-pip install mysql-connector-python
-2️⃣ Install Dependencies
-pip install mysql-connector-python
+```
 
-3️⃣ Create MySQL Database
+### 2️⃣ Install Dependencies
+```bash
+pip install mysql-connector-python
+```
+
+### 3️⃣ Create MySQL Database
 
 Open MySQL and run:
-
+```bash
 CREATE DATABASE BANKDB;
+```
 
-4️⃣ Initialize Table + Demo Records
+### 4️⃣ Initialize Table + Demo Records
+```bash
 python dbcreate.py
+```
 
-5️⃣ Run the Application
+### 5️⃣ Run the Application
+```bash
 python bnkdb_main.py
+```
 
-🧭 Usage
-
+## Usage
 After launching the script, type:
-
+```bash
 >>> menu
-
+```
